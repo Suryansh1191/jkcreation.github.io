@@ -67,8 +67,28 @@
     margin-left: 60px;
     padding: 0;
     text-align: justify;
+}
 
-
+@media only screen and (max-width: 600px){
+    .p_parallax{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3em;
+        color: #ffff;
+        text-transform: uppercase;
+        vertical-align: middle;
+        margin-bottom: -10px;
+        margin-left: 30px;
+        letter-spacing: 3px;
+        padding: 0;
+    }
+    .pera_p{
+        font-family: 'Fjalla One', sans-serif;
+        color: #ffffff;
+        font-size: 1em;
+        margin-left: 30px;
+        padding: 0;
+        text-align: justify;
+    }
 }
 
 /*email*/
@@ -270,6 +290,18 @@ grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 6px;
 }
+
+@media only screen and (max-width: 600px){
+    .ser_parallex{
+        text-align: center;
+        color: white;
+        font-size: 4em;
+        padding-top: 230px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 4px;
+    }
+}
+
 .small_screen{
     display: none;
 }
