@@ -57,6 +57,7 @@
     margin-bottom: -10px;
     margin-left: 60px;
     letter-spacing: 3px;
+    padding: 0;
 
 }
 .pera_p{
@@ -64,7 +65,7 @@
     color: #ffffff;
     font-size: 1.5em;
     margin-left: 60px;
-    
+    padding: 0;
     text-align: justify;
 
 
@@ -178,7 +179,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 @media only screen and (max-width: 600px){
     .upper_img-contener{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .content_img{
         margin-right: 0em;
@@ -269,6 +270,9 @@ grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 6px;
 }
+.small_screen{
+    display: none;
+}
 
 .btn_photo{
     text-align: center;
@@ -320,6 +324,14 @@ grid-template-columns: 1fr 1fr 1fr;
   .box:hover > img {
     width: 100%;
     height: 100%;
+  }
+  @media only screen and (max-width: 600px){
+    .big_screen{
+        display: none;
+    }
+    .small_screen{
+        display: inline;
+    }
   }
 
 /*------------------------------------------service start--------------------------------------------------*/
